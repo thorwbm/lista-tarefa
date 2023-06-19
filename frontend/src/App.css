@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #e6e6e6;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.form button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.form button:hover {
+  background: #218838;
+}
+
+.filters {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.filters button {
+  background: #e6e6e6;
+  border: 1px solid #28a745;
+  color: #28a745;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.filters .selected,
+.filters .selectd:hover{
+  background: #28a745;
+  color: #fff;
+}
+.filters button:hover {
+  background: #e6e6e6;
+  color:#000;
+}
+
+.task-list {
+  list-style: none;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-list input {
+  margin-right: 10px;
+}
+
+.task-list span {
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.task-list button {
+  background: #dc3545;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.task-list button:hover {
+  background: #c82333;
+}
+
+button {
+  border-radius : 5px;
+}
